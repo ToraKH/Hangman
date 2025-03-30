@@ -79,7 +79,7 @@ def show_credit(screen, credit_bg):
     #Create text in the correct font
     credit_title = font2.render('CREDITS', True, (0,0,0))
 
-    creators = font1.render('DEVELOPER & SUPPORT', True, (0,0,0))
+    creators = font1.render('DEVELOPER', True, (0,0,0))
     game_devs = font1.render('Game developer: Tora K. Homme', True, (0,0,0))
 
     images = font1.render('IMAGES', True, (0,0,0))

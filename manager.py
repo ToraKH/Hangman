@@ -413,9 +413,13 @@ class Manager():
         if self.head_flag:
             self.head.draw(self.screen)
 
+        # tegn rektangel bak bokstavene
+        pg.draw.rect(self.screen, (225,128,128),pg.Rect(40, 40, 230, 410))
         # Tegner bokstavene
         for letter in self.letter_sprites.values():
             letter.draw(self.screen)
+        
+
             
         # Tegner linjene og bokstavene
         for line in self.line_list:
